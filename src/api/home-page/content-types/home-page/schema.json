@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "homa-page-flow.features",
+        "homa-page-flow.offer",
+        "homa-page-flow.team",
+        "homa-page-flow.discount",
+        "homa-page-flow.faq",
+        "homa-page-flow.dances"
+      ]
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

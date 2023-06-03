@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homa_page_flow_faq_items",
+  "info": {
+    "displayName": "Faq item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

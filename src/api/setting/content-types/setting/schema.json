@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contacts": {
+      "displayName": "Contacts",
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-flow.contacts"
+    },
+    "routing": {
+      "displayName": "Routing",
+      "type": "component",
+      "repeatable": true,
+      "component": "settings-flow.routing"
+    }
+  }
+}

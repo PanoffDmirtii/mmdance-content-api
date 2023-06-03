@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dance_page_flow_features",
+  "info": {
+    "displayName": "feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

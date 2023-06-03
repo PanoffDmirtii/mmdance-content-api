@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "teachers_pages",
+  "info": {
+    "singularName": "teachers-page",
+    "pluralName": "teachers-pages",
+    "displayName": "Teachers page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

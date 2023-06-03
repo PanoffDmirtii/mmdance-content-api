@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "amocrm_tokens",
+  "info": {
+    "singularName": "amocrm-token",
+    "pluralName": "amocrm-tokens",
+    "displayName": "Amocrm token"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "access_token": {
+      "type": "text"
+    },
+    "refresh_token": {
+      "type": "text"
+    }
+  }
+}

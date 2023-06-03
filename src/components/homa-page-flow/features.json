@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homa_page_flow_features",
+  "info": {
+    "displayName": "Features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature_items": {
+      "displayName": "feature-items",
+      "type": "component",
+      "repeatable": true,
+      "component": "homa-page-flow.feature-items"
+    }
+  }
+}

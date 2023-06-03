@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homa_page_flow_offer_items",
+  "info": {
+    "displayName": "Offer items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

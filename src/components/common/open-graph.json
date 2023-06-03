@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_common_open_graphs",
+  "info": {
+    "displayName": "Open graph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "locale": {
+      "type": "string",
+      "default": "ru_RU"
+    },
+    "type": {
+      "type": "string",
+      "default": "article"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "site_name": {
+      "type": "string"
+    },
+    "social_network": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

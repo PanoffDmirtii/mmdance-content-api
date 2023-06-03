@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_settings_flow_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "metro": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string",
+      "default": "+7"
+    },
+    "phone_text": {
+      "type": "string"
+    },
+    "socials": {
+      "displayName": "Socials",
+      "type": "component",
+      "repeatable": true,
+      "component": "settings-flow.socials"
+    },
+    "map": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "prices_pages",
+  "info": {
+    "singularName": "prices-page",
+    "pluralName": "prices-pages",
+    "displayName": "Prices page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

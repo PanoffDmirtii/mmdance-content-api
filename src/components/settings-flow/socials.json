@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_settings_flow_socials",
+  "info": {
+    "displayName": "Socials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "key": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    }
+  }
+}

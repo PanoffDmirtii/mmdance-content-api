@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  strapi:
+    build: './'
+    restart: always
+    env_file: .env
+    environment:
+      DATABASE_CLIENT: postgres
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_HOST: ${DATABASE_HOST}
+      DATABASE_PORT: ${DATABASE_PORT}
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+    volumes:
+      - ./strapi:/usr/src/api/strapi-app
+    ports:
+      - '1337:1337'
+    depends_on:
+      - db
+    networks:
+      - strapi-network
+  db:
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./db:/var/lib/postgresql/data/
+    networks:
+      - strapi-network
+networks:
+  strapi-network:
+    driver: bridge

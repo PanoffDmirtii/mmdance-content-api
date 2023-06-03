@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_homa_page_flow_dances",
+  "info": {
+    "displayName": "Dances",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

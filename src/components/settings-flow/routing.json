@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_settings_flow_routings",
+  "info": {
+    "displayName": "Routing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "link": {
+      "type": "string",
+      "unique": false,
+      "required": false
+    },
+    "is_enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "subrouting_key": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homa_page_flow_offers",
+  "info": {
+    "displayName": "Offer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "offer_items": {
+      "displayName": "Offer items",
+      "type": "component",
+      "repeatable": true,
+      "component": "homa-page-flow.offer-items"
+    },
+    "offer_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

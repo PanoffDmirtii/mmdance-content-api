@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dance_pages",
+  "info": {
+    "singularName": "dance-page",
+    "pluralName": "dance-pages",
+    "displayName": "Dance page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "features": {
+      "displayName": "feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "dance-page-flow.feature"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "teachers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::teacher.teacher",
+      "inversedBy": "dance_pages"
+    },
+    "button": {
+      "type": "string",
+      "default": "Записаться в группу"
+    },
+    "priority": {
+      "type": "integer",
+      "min": 1,
+      "default": 1
+    }
+  }
+}
